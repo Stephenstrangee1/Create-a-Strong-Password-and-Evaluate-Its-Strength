@@ -1,0 +1,43 @@
+Report: Password Strength Results and Explanation
+This report documents the evaluation of three passwords with varying complexity as part of Task 6 from the Elevate Labs Cyber Security Internship. The passwords were tested using passwordmeter.com to assess their strength, and the results are analyzed to highlight security implications and best practices.
+Password Strength Results
+
+Password: "stephen12"
+
+Score: 35% (Weak)
+Complexity: 9 characters, lowercase letters, and numbers only.
+Feedback: Lacks uppercase letters and symbols, reducing variety. Score breakdown: +36 (characters), +4 (lowercase), +8 (numbers). Deductions for insufficient diversity.
+Explanation: This password is weak due to its simplicity and use of a common name ("stephen"), making it vulnerable to dictionary attacks. The short length and lack of character types allow brute force attempts to succeed quickly.
+
+
+Password: "stephen2025"
+
+Score: 55% (Good)
+Complexity: 11 characters, lowercase letters, and numbers only.
+Feedback: Improved length and number usage, but still lacks uppercase letters and symbols. Score breakdown: +44 (characters), +8 (lowercase), +16 (numbers).
+Explanation: This is a moderate improvement over the first password due to increased length and additional numbers. However, it remains susceptible to dictionary attacks due to the name base and lacks the diversity needed to resist advanced cracking methods effectively.
+
+
+Password: "Stephen@2025#"
+
+Score: 100% (Very Strong)
+Complexity: 13 characters, including uppercase, lowercase, numbers, and symbols.
+Feedback: Meets all strength criteria with a balanced mix. Score breakdown: +56 (characters), +14 (lowercase), +16 (numbers), +18 (symbols), +12 (middle numbers/symbols), +8 (requirements met).
+Explanation: This password is highly secure due to its length, diverse character types, and avoidance of predictable patterns. The inclusion of uppercase, symbols, and numbers significantly increases the number of possible combinations, making it resistant to both brute force and dictionary attacks.
+
+
+
+Explanation of Findings
+
+Impact of Complexity: Password strength correlates directly with complexity. "stephen12" (low complexity) has fewer possible combinations (e.g., ~95^9 ≈ 7 trillion), crackable in hours with modern tools. "Stephen@2025#" (high complexity) has vastly more (e.g., ~95^13 ≈ 5 quadrillion), potentially taking years to crack, illustrating how variety and length exponentially enhance security.
+Common Attacks:
+
+Brute Force: Tests all combinations; longer/mixed passwords slow this down (e.g., 8 chars vs. 13 chars).
+Dictionary: Targets common words/names; avoided by not using "stephen" alone in the strong version.
+
+
+Best Practices Identified: Use 12+ characters, mix uppercase, lowercase, numbers, and symbols, avoid personal info or patterns, and consider passphrases or regular updates.
+Tips Learned: Adding symbols boosts scores by +6 each, meeting all requirements adds +2 per category, and length contributes +4 per character, though repeats reduce points.
+
+Conclusion
+This evaluation demonstrates that password strength hinges on length and character diversity. The progression from "stephen12" to "Stephen@2025#" shows how small additions (e.g., symbols, uppercase) dramatically improve security. For real-world use, combining strong passwords with multi-factor authentication (MFA) and password managers is recommended to maximize protection against attacks.
