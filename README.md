@@ -51,7 +51,7 @@ I followed the task's Hints/Mini Guide step-by-step:
   - Complexity: Better length/numbers, but no symbols/uppercase.
   - Screenshot: stephen2025-screenshot.png
 
-- **Password 3: "stephen@2025#"**
+- **Password 3: "Stephen@2025#"**
   - Score: 100% (Very Strong)
   - Complexity: Full mix—length 13, lowercase, numbers, symbols.
   - Screenshot: stephen@2025#-screenshot.png
